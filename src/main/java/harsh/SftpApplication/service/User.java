@@ -1,4 +1,4 @@
-package com.hshah.sftpapplication.service;
+package harsh.SftpApplication.service;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -17,11 +17,11 @@ public class User {
     // getters and setters
 }
 
-// src/main/java/com/example/sftp/repository/UserRepository.java
+// src/main/java/com/hshah/service/repository/UserRepository.java
 
-package com.example.sftp.repository;
+package com.hshah.service.repository;
 
-import com.example.sftp.model.User;
+import com.hshah.service.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

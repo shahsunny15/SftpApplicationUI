@@ -54,10 +54,11 @@
         </dependency>
 
         <!-- Apache Commons Net for SFTP -->
+        <!-- JSch for SFTP -->
         <dependency>
-            <groupId>commons-net</groupId>
-            <artifactId>commons-net</artifactId>
-            <version>3.8.0</version>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.55</version>
         </dependency>
 
         <!-- Spring Boot DevTools (optional for development) -->
